@@ -1,4 +1,4 @@
-h1 {
+#recipeName {
     font-size: 24px;
     font-weight: bold;
     text-align: center;
@@ -13,3 +13,18 @@ h1 {
     font-size: 18px;
 }
 
+* {
+    border: 2px solid red;
+}
+
+.ingredient {
+    font-size: 22px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.steps {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
