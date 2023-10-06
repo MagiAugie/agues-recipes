@@ -1,0 +1,20 @@
+/*Compound Selector*/
+p.special {
+    color: red;
+    font-weight: bold;
+}
+
+.button.primary {
+    background-color: blue;
+    color: white;
+}
+
+.button.secondary {
+    background-color: red;
+    color: white;
+}
+
+.button {
+    font-size: 20px;
+    font-weight: bold;
+}
