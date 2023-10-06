@@ -1,20 +1,15 @@
-/*Compound Selector*/
-p.special {
-    color: red;
+h1 {
+    font-size: 24px;
     font-weight: bold;
+    text-align: center;
 }
 
-.button.primary {
-    background-color: blue;
-    color: white;
+.background-color {
+    background-color: yellow;
 }
 
-.button.secondary {
-    background-color: red;
-    color: white;
+#links {
+    color: black;
+    font-size: 18px;
 }
 
-.button {
-    font-size: 20px;
-    font-weight: bold;
-}
