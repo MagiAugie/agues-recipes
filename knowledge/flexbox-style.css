@@ -1,0 +1,91 @@
+/* FLEX GROW */
+
+/* .flex-container {
+    display: flex;
+  }
+  
+  this selector selects all divs inside of .flex-container
+  .flex-container div {
+    background: peachpuff;
+    border: 4px solid brown;
+    height: 100px;
+    flex: 1 1 0%;
+  }
+  
+  only div.two is selected here
+  .flex-container .two {
+    flex: 2 1 0%;
+  } */
+/********************************************************************************************************************************/
+  /* FLEX SHRINK */
+
+  /* .flex-container {
+    display: flex;
+  } */
+  
+  /* this selector selects all divs inside of .flex-container */
+  /* .flex-container div {
+    background: peachpuff;
+    border: 4px solid brown;
+    height: 100px;
+    width: 250px;
+    flex: 1 1 auto;
+  }
+  
+  .flex-container .two {
+    flex-shrink: 0;
+  } */
+
+  /*In the above example, all 3 divs are given a width of 250px, but when their parent is big enough, 
+  they grow to fill it. Likewise, when the parent is too small, the default behavior is for them to shrink to fit.*/
+  /********************************************************************************************************************************/
+
+  /* AXES */
+  /* display: flex on the div arranges its children horizontally */
+  /* that is a demonstration of flex-direction: row */
+  /* if you uncomment the flex-direction: column, those divs will stack vertically */
+  /* .flex-container {
+    display: flex; 
+    flex-direction: column;
+  }
+  
+  this selector selects all divs inside of .flex-container
+  .flex-container div {
+    background: peachpuff;
+    border: 4px solid brown;
+    height: 80px;
+    flex: 1 1 auto;
+  } */
+/********************************************************************************************************************************/
+/* ALIGNMENT */
+
+.container {
+    height: 140px;
+    padding: 16px;
+    background: plum;
+    border: 4px solid indigo;
+    display: flex;
+    /*
+     uncommenting the code below
+     will keep the contents the same width
+     but distribute themselves differently inside the container
+     */
+    /* justify-content: space-between; */
+    /* justify-content: center; */
+    /*
+    centers the boxes within the container
+    */
+    /*align-item: center;*/
+  }
+  
+.item {
+    width: 60px;
+    height: 60px;
+    border: 4px solid darkslategray;
+    background: skyblue;
+    /*
+    uncommenting the code below will make each of the items
+    grow to fit the available space
+    */
+    /*flex: 1;*/
+  }
